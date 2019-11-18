@@ -7,7 +7,7 @@ const Home = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.text}>"This is the home screen"</Text>
       <Buttons
-        title="go to settings"
+        title="go to settings screen"
         handlePress={() => {
           navigation.navigate("Settings");
         }}
